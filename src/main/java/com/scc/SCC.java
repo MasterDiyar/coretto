@@ -47,7 +47,6 @@ public class SCC {
             }
         }
 
-        // Root of SCC
         if (low[u] == disc[u]) {
             List<Integer> comp = new ArrayList<>();
             int node;
